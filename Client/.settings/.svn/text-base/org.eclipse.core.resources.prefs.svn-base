@@ -1,0 +1,12 @@
+#Mon Dec 05 17:40:54 PST 2011
+eclipse.preferences.version=1
+encoding//WebContent/detailsRequest.jsp=UTF-8
+encoding//src/VideoLibrary/Service.java=UTF-8
+encoding//src/VideoLibrary/ServiceService.java=UTF-8
+encoding//src/VideoLibrary/ServiceServiceLocator.java=UTF-8
+encoding//src/VideoLibrary/ServiceSoapBindingStub.java=UTF-8
+encoding//src/entity/AccountDetails.java=UTF-8
+encoding//src/entity/Customer.java=UTF-8
+encoding//src/entity/Movie.java=UTF-8
+encoding//src/entity/MovieAccountDetail.java=UTF-8
+encoding//src/entity/MovieCategory.java=UTF-8

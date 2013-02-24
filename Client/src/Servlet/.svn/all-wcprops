@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/83/Client/src/Servlet
+END
+MovieByCat.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/66/Client/src/Servlet/MovieByCat.java
+END
+MovieList.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/76/Client/src/Servlet/MovieList.java
+END
+DeleteMovies.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/75/Client/src/Servlet/DeleteMovies.java
+END
+SearchMovies.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/52/Client/src/Servlet/SearchMovies.java
+END
+Search.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/70/Client/src/Servlet/Search.java
+END
+Checkout.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/68/Client/src/Servlet/Checkout.java
+END
+Remove.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/68/Client/src/Servlet/Remove.java
+END
+SignIn.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/68/Client/src/Servlet/SignIn.java
+END
+AdminSearchUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/83/Client/src/Servlet/AdminSearchUser.java
+END
+MovieDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/63/Client/src/Servlet/MovieDetail.java
+END
+MyAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/68/Client/src/Servlet/MyAccount.java
+END
+GetUserDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/58/Client/src/Servlet/GetUserDetails.java
+END
+ReturnMovie.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/68/Client/src/Servlet/ReturnMovie.java
+END
+Transaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/68/Client/src/Servlet/Transaction.java
+END
+CategoryList.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/68/Client/src/Servlet/CategoryList.java
+END
+CustomerList.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/53/Client/src/Servlet/CustomerList.java
+END
+AddtoCart.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/68/Client/src/Servlet/AddtoCart.java
+END
+SignUp.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/35/Client/src/Servlet/SignUp.java
+END
+DeleteUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/84/Client/src/Servlet/DeleteUser.java
+END

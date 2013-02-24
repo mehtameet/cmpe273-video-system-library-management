@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/86/Client/WebContent/admin
+END
+premiumCust.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/54/Client/WebContent/admin/premiumCust.jsp
+END
+movieList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/78/Client/WebContent/admin/movieList.jsp
+END
+addMovie.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/Client/WebContent/admin/addMovie.jsp
+END
+regularCust.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/54/Client/WebContent/admin/regularCust.jsp
+END
+regularCustRequest.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/86/Client/WebContent/admin/regularCustRequest.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/79/Client/WebContent/admin/index.jsp
+END
+searchUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/82/Client/WebContent/admin/searchUser.jsp
+END
+premiumCustRequest.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/85/Client/WebContent/admin/premiumCustRequest.jsp
+END

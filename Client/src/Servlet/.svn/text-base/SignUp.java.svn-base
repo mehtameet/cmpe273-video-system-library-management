@@ -1,0 +1,95 @@
+package Servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import VideoLibrary.ServiceProxy;
+
+/**
+ * Servlet implementation class SignUp
+ */
+public class SignUp extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	ServiceProxy proxy = new ServiceProxy();
+
+	/**
+	 * @see HttpServlet#HttpServlet()
+	 */
+	public SignUp() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doGet(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		PrintWriter out = response.getWriter();
+		response.setContentType("text/html");
+		boolean qdone;
+		try {
+			String[] user_details = new String[11];
+			int[] columnId = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+			int isUpdate = 0;
+
+			// 0- emailId
+			// 1- password
+			// 2- firstName
+			// 3- lastName
+			// 4- dateOfBirth
+			// 5- address
+			// 6- city
+			// 7- state
+			// 8- zipCode
+			// 9- gender
+			// 10- userType (simple/premium members)
+			// 11- isActive
+
+			user_details[0] = request.getParameter("email"); // Email.
+			user_details[1] = request.getParameter("password"); // password.
+			user_details[2] = request.getParameter("fname"); // First Name.
+			user_details[3] = request.getParameter("lname"); // Last Name
+			user_details[4] = request.getParameter("dob"); // Birth Date.
+			user_details[5] = request.getParameter("address"); // Address.
+			user_details[6] = request.getParameter("city"); // City
+			user_details[7] = request.getParameter("state"); // State
+			user_details[8] = request.getParameter("zipcode"); // Zip Code.
+			user_details[9] = request.getParameter("sex"); // Gender.
+			user_details[10] = request.getParameter("usertype"); // Member type.
+			user_details[11] = "T"; // Status to show whether the user is Active or not. 
+
+			proxy.setEndpoint("http://localhost:8080/VideoLibraryMgmt/services/Service");
+			qdone = proxy.addUpdateUserDetails(columnId, user_details, isUpdate);
+			HttpSession session = request.getSession();
+
+			if (qdone == true) {
+
+				session.setAttribute("userSession", session);
+				response.sendRedirect("login.jsp?flag=1");
+			} else {
+				out.println("\n <a href='signup.jsp?flag=0'>");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doPost(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	}
+
+}

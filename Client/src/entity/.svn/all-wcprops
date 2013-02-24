@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/41/Client/src/entity
+END
+Movie.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/56/Client/src/entity/Movie.java
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/56/Client/src/entity/Customer.java
+END
+MovieCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/56/Client/src/entity/MovieCategory.java
+END
+MovieAccountDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/70/Client/src/entity/MovieAccountDetail.java
+END
+AccountDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/70/Client/src/entity/AccountDetails.java
+END
